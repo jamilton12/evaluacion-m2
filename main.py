@@ -26,6 +26,7 @@ category = st.sidebar.selectbox(
 
 min_price = int(df['Price'].min())
 max_price = int(df['Price'].max())
+
 price_range = st.sidebar.slider(
     "Selecciona un rango de precios",
     min_value=min_price,
